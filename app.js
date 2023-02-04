@@ -1,9 +1,9 @@
 const user = {};
 function setterGenerator(key) {
   return function name(value) {
-    return user[key] = value;
+    return this[key] = value;
   };
 }
 const nameSetter = setterGenerator("name");
-nameSetter("jack");
+nameSetter.call(user,"jack");
 console.log(user); // {name: ‘jack’}
