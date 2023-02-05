@@ -5,7 +5,6 @@
 }
 body,
 html {
-  background-color: blanchedalmond;
   width: 100%;
   height: 100%;
   display: flex;
@@ -15,10 +14,9 @@ html {
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  gap: 5px;
   width: 45rem;
   height: 30rem;
-  background-color: brown;
   padding: 1rem;
 }
 .col-1 {
@@ -27,21 +25,30 @@ html {
   grid-template-rows: 9rem;
 }
 .one {
-  background-color: aqua;
+  background: url(../images/image.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .two {
-  background-color: rgb(255, 0, 174);
+  background: url(../images/images.jpg);
+  background-size: cover;
+  background-position: center;
 }
+
 .col-2 {
   gap: 0.5rem;
   display: grid;
   grid-template-rows: 18rem;
 }
 .three {
-  background-color: aqua;
+  background: url(../images/166578_00_2x.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .four {
-  background-color: rgb(255, 0, 174);
+  background: url(../images/heart-shaped-fruits.jpg);
+  background-size: cover;
+  background-position: center;
   height: 9rem;
 }
 
@@ -51,10 +58,13 @@ html {
   grid-template-rows: 8rem;
 }
 .five {
-  background-color: aqua;
+  background: url(../images/1387918756116.jpeg);
+  background-size: cover;
+  background-position: center;
 }
 .six {
-  background-color: rgb(255, 0, 174);
+  background: url(../images/154924_00_2x.jpg);
+  background-size: cover;
   height: 18.5rem;
 }
 .col-4 {
@@ -63,9 +73,13 @@ html {
   grid-template-rows: 17rem;
 }
 .seven {
-  background-color: aqua;
+  background: url(../images/food_photography_pouyaandish-min.jpg);
+  background-size: cover;
+  background-position: center;
 }
 .eight {
-  background-color: rgb(255, 0, 174);
+  background: url(../images/carrot-pilaf-6cf6eba.jpg);
+  background-size: cover;
+  background-position: center;
   height: 9rem;
 }
