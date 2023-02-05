@@ -18,7 +18,7 @@ html {
   overflow: hidden;
 }
 /* //// */
-.circle-Top {
+/* .circle-Top {
   position: absolute;
   top: -19rem;
   right: -19rem;
@@ -31,37 +31,54 @@ html {
 .circle-Top img,
 .circle-bottom img {
   width: 40rem;
-}
+} */
 
 /* //// */
 
-.Cards,
-.acard,
-.inside-card,
-.text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.Cards {
-  width: 80rem;
-  gap: 1.5rem;
-  /* background-color: rgb(24, 75, 75); */
-}
-.acard {
-  width: 30rem;
-  height: 38rem;
-}
-fieldset {
+@media screen and (min-width: 280px) {
+  .circle-Top img,
+  .circle-bottom img {
+    width: 20rem;
+  }
+  .circle-Top {
+    position: absolute;
+    top: -10rem;
+    right: -10rem;
+  }
+  .circle-bottom {
+    position: absolute;
+    bottom: -10rem;
+    left: -10rem;
+  }
+  .Cards,
+  .acard,
+  .inside-card,
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Cards {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    /* background-color: rgb(24, 75, 75); */
+  }
+  .acard {
+    width: 18rem;
+    height: 20rem;
+  }
+
+  fieldset {
     width: 100%;
     height: 100%;
     border: none;
-    border-radius: .8rem;
+    border-radius: 0.8rem;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-legend {
-    width: 6rem;
-    height: 6rem;
+  }
+  legend {
+    width: 3rem;
+    height: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,26 +86,27 @@ legend {
     text-align: center;
     background-color: #ffff;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-.number-card {
-  font-size: 3rem;
-}
+  }
+  .number-card {
+    font-size: 1rem;
+  }
 
-.inside-card,
-.text {
-  flex-direction: column;
-}
-.inside-card {
-  gap: 2.6rem;
-  padding: 4rem 1.5rem 0 1.5rem;
-}
-.text {
-  font-size: 1.5rem;
-  gap: 1rem;
-}
-.para {
-  text-align: center;
-}
-.icon img {
-  width: 4.5rem;
+  .inside-card,
+  .text {
+    flex-direction: column;
+  }
+  .inside-card {
+    gap: 1.5rem;
+    padding: 2rem 1.5rem 0 1.5rem;
+  }
+  .text {
+    font-size: 1rem;
+    gap: 1rem;
+  }
+  .para {
+    text-align: center;
+  }
+  .icon img {
+    width: 2.5rem;
+  }
 }
