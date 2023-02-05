@@ -247,15 +247,15 @@ html {
     height: 35rem;
   }
   legend {
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 5rem;
+    height: 5rem;
   }
   .number-card {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   .inside-card {
     gap: 1.5rem;
-    padding: 2.5rem 1.5rem 0 1.5rem;
+    padding:4.5rem 1.5rem 0 1.5rem;
   }
   .text {
     font-size: 1.5rem;
