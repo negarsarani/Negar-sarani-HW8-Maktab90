@@ -1,0 +1,30 @@
+.first-footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.contactUs {
+  background-color: var(--blue-color);
+}
+.aboutUs {
+  background-color: var(--gray-color);
+}
+.contactUs,
+.aboutUs {
+  color: var(--white-color);
+  padding: 2.5rem 1rem 1.5rem 1rem;
+}
+.div-contactUS,
+.div-aboutUs {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  text-align: center;
+  font-size: 1rem;
+}
+.para-footter {
+  text-align: center;
+}
+.email-footer {
+  color: var(--white-color);
+  text-decoration: none;
+  padding-top: 1rem;
+}
