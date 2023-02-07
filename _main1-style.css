@@ -56,7 +56,7 @@ main {
   .div-main1 {
     width: 35rem;
     gap: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .p-main1 {
     flex-direction: row;
