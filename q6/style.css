@@ -1,0 +1,252 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  font-size: 62.5%;
+  overflow: hidden;
+}
+body{
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+
+  .circle-Top img,
+  .circle-bottom img {
+    width: 15rem;
+  }
+  .circle-Top {
+    position: absolute;
+    top: -8rem;
+    right: -8rem;
+  }
+  .circle-bottom {
+    position: absolute;
+    bottom: -8rem;
+    left: -8rem;
+  }
+  .Cards,
+  .acard,
+  .inside-card,
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Cards {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    /* background-color: rgb(24, 75, 75); */
+  }
+  .acard {
+    width: 18rem;
+    height: 20rem;
+  }
+
+  fieldset {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0.8rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  legend {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #ffff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .number-card {
+    font-size: 1rem;
+  }
+
+  .inside-card,
+  .text {
+    flex-direction: column;
+  }
+  .inside-card {
+    gap: 1.5rem;
+    padding: 2rem 1.5rem 0 1.5rem;
+  }
+  .text {
+    font-size: 1rem;
+    gap: 1rem;
+  }
+  .para {
+    text-align: center;
+  }
+  .icon img {
+    width: 2.5rem;
+  }
+
+@media screen and (min-width: 357px) {
+  .circle-Top img,
+  .circle-bottom img {
+    width: 20rem;
+  }
+  .circle-Top {
+    position: absolute;
+    top: -10rem;
+    right: -10rem;
+  }
+  .circle-bottom {
+    position: absolute;
+    bottom: -10rem;
+    left: -10rem;
+  }
+}
+
+@media screen and (min-width: 421px) {
+  .circle-Top img,
+  .circle-bottom img {
+    width: 25rem;
+  }
+  .circle-Top {
+    position: absolute;
+    top: -13rem;
+    right: -13rem;
+  }
+  .circle-bottom {
+    position: absolute;
+    bottom: -13rem;
+    left: -13rem;
+  }
+}
+
+@media screen and (min-width: 625px) {
+  .circle-Top img,
+  .circle-bottom img {
+    width: 25rem;
+  }
+  .circle-Top {
+    position: absolute;
+    top: -13rem;
+    right: -13rem;
+  }
+  .circle-bottom {
+    position: absolute;
+    bottom: -13rem;
+    left: -13rem;
+  }
+  .Cards,
+  .acard,
+  .inside-card,
+  .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Cards {
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+    /* background-color: rgb(24, 75, 75); */
+  }
+}
+@media screen and (min-width: 675px) {
+  .circle-Top img,
+  .circle-bottom img {
+    width: 30rem;
+  }
+  .circle-Top {
+    position: absolute;
+    top: -15rem;
+    right: -15rem;
+  }
+  .circle-bottom {
+    position: absolute;
+    bottom: -15rem;
+    left: -15rem;
+  }
+  .Cards {
+    flex-direction: row;
+    width: 100%;
+    gap: 1.5rem;
+    /* background-color: rgb(24, 75, 75); */
+  }
+  .acard {
+    width: 18rem;
+    height: 25rem;
+  }
+  legend {
+    width: 4rem;
+    height: 4rem;
+  }
+  .number-card {
+    font-size: 1.5rem;
+  }
+  .inside-card {
+    gap: 1.5rem;
+    padding: 2rem 1.5rem 0 1.5rem;
+  }
+  .text {
+    font-size: 1.2rem;
+    gap: 1rem;
+  }
+
+  .icon img {
+    width: 3rem;
+  }
+}
+
+@media screen and (min-width: 825px) {
+  .circle-Top img,
+  .circle-bottom img {
+    width: 30rem;
+  }
+  .circle-Top {
+    position: absolute;
+    top: -15rem;
+    right: -15rem;
+  }
+  .circle-bottom {
+    position: absolute;
+    bottom: -15rem;
+    left: -15rem;
+  }
+  .Cards {
+    flex-direction: row;
+    width: 100%;
+    gap: 2rem;
+    /* background-color: rgb(24, 75, 75); */
+  }
+  .acard {
+    width: 24rem;
+    height: 35rem;
+  }
+  legend {
+    width: 5rem;
+    height: 5rem;
+  }
+  .number-card {
+    font-size: 2rem;
+  }
+  .inside-card {
+    gap: 1.5rem;
+    padding: 4.5rem 1.5rem 0 1.5rem;
+  }
+  .text {
+    font-size: 1.5rem;
+    gap: 1rem;
+  }
+
+  .icon img {
+    width: 3.4rem;
+  }
+}
