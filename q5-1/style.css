@@ -7,6 +7,8 @@ body,
 html {
   width: 100%;
   height: 100%;
+}
+body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,4 +84,67 @@ html {
   background-size: cover;
   background-position: center;
   height: 9rem;
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (max-width: 742px) {
+  body {
+    display: flex;
+    align-items: start;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: start;
+    gap: 5px;
+    width: 35rem;
+    height: 30rem;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    display: flex;
+    align-items: start;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    width: 30rem;
+    height: 30rem;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    display: flex;
+    align-items: start;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    width: 25rem;
+    height: 30rem;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    display: flex;
+    align-items: start;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    width: 20rem;
+    height: 30rem;
+    padding: 1rem;
+  }
 }

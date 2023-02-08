@@ -13,58 +13,20 @@ html {
   justify-content: center;
 }
 .container {
+  margin: 0 auto;
+  position: relative;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: minmax(100px, auto);
-  gap: 10px;
-  width: 45rem;
-  height: 30rem;
-  background-color: brown;
-  padding: 1rem;
+  gap: 0.5rem;
 }
-.one {
-  background-color: aqua;
-  grid-column: 1;
-  grid-row: 1;
-}
-.five {
-  background-color: aquamarine;
-  grid-column: 1;
-  grid-row: 2/8;
-}
-.two {
-  background-color: rgb(169, 126, 62);
-
-  grid-column: 2;
-  grid-row: 1/5;
-}
-.six {
-  background-color: blueviolet;
-  margin-bottom: 0.2rem;
-  grid-column: 2;
-  grid-row: 5/8;
-}
-.three {
-  background-color: blueviolet;
-  grid-column: 3;
-  grid-row: 1;
-}
-.seven {
-  background-color: aquamarine;
-  grid-column: 3;
-  grid-row: 2/8;
-  margin-bottom: 0.6rem;
+.divs {
+  background-color: hotpink;
+  width: 10rem;
+  height: 100%;
 }
 
-.four {
-  background-color: rgb(169, 126, 62);
-
-  grid-column: 4;
-  grid-row: 1/5;
-}
-.eight {
-  background-color: blueviolet;
-  grid-column: 4;
-  grid-row: 5/8;
-  margin-bottom: 1rem;
+img {
+  /* object-fit: cover; */
+  height: 100%;
+  width: 100%;
 }
