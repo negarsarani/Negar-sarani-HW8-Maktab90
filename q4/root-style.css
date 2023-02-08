@@ -1,0 +1,28 @@
+:root{
+    --gray-color : #333333;
+    --white-color : #FFFFFF;
+    --blue-color : #2690D4;
+    --bones-color : #EAEAEA;
+    --black-color : #000000;
+    --main3-color :  #EAEAEA;
+    --a--color: #216592;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body , button{
+  font-size: 62.5%;
+  font-family: sans-serif;
+}

@@ -1,0 +1,137 @@
+.main-2 {
+  width: 100%;
+  background-color: var(--gray-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.div-main2 {
+  width: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.acard {
+  width: 10rem;
+  background-color: var(--white-color);
+  padding: 2rem 1rem 2.5rem 1rem;
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.h4-main2 {
+  font-size: 0.7rem;
+}
+.para-main2 {
+  font-size: 0.8rem;
+  text-align: center;
+}
+@media screen and (min-width: 300px) {
+  .main-2 {
+    padding: 2rem;
+  }
+  .div-main2 {
+    flex-wrap: wrap;
+    width: 40rem;
+    gap: 1rem;
+  }
+  .acard {
+    width: 10rem;
+    padding: 2.5rem 1rem 2.5rem 1rem;
+    gap: 2rem;
+  }
+  .h4-main2 {
+    font-size: 0.8rem;
+  }
+  .para-main2 {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (min-width: 400px) {
+  .main-2 {
+    padding: 2rem;
+  }
+  .div-main2 {
+    flex-wrap: wrap;
+    width: 50rem;
+    gap: 1rem;
+  }
+  .acard {
+    width: 12rem;
+    padding: 2.5rem 1rem 2.5rem 1rem;
+    gap: 2rem;
+  }
+  .h4-main2 {
+    font-size: 1rem;
+  }
+  .para-main2 {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 500px) {
+  .main-2 {
+    padding: 2rem;
+  }
+  .div-main2 {
+    flex-wrap: wrap;
+    width: 50rem;
+    gap: 1rem;
+  }
+  .acard {
+    width: 12rem;
+    padding: 2.5rem 1rem 2.5rem 1rem;
+    gap: 2rem;
+  }
+  .h4-main2 {
+    font-size: 1rem;
+  }
+  .para-main2 {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 601px) {
+  .main-2 {
+    padding: 2rem;
+  }
+  .div-main2 {
+    flex-wrap: nowrap;
+    width: 35rem;
+    gap: 1rem;
+  }
+  .acard {
+    padding: 2.5rem 1rem 2.5rem 1rem;
+    gap: 2rem;
+  }
+  .h4-main2 {
+    font-size: 0.9rem;
+  }
+  .para-main2 {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 690px) {
+  .main-2 {
+    padding: 2rem;
+  }
+  .div-main2 {
+    flex-wrap: nowrap;
+    width: 40rem;
+    gap: 1rem;
+  }
+  .acard {
+    width: 15rem;
+    padding: 2.5rem 1rem 2.5rem 1rem;
+    gap: 2rem;
+  }
+  .h4-main2 {
+    font-size: 1.1rem;
+  }
+  .para-main2 {
+    font-size: 1rem;
+  }
+}
