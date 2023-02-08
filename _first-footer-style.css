@@ -14,7 +14,7 @@
 .contactUs,
 .aboutUs {
   color: var(--white-color);
-  padding: 2rem 1rem 1rem 1rem;
+  padding: 2rem 1rem 1.5rem 1rem;
 }
 .div-contactUS,
 .div-aboutUs {
@@ -34,6 +34,7 @@
 }
 .email-footer {
   font-size: 0.8rem;
+  padding-top: 1rem;
   color: var(--white-color);
   text-decoration: none;
 }
@@ -88,7 +89,7 @@
   }
   .contactUs,
   .aboutUs {
-    padding: 2rem 1rem 0.5rem 1rem;
+    padding: 2rem 1rem 1rem 1rem;
   }
   .h3-footer {
     font-size: 1rem;
