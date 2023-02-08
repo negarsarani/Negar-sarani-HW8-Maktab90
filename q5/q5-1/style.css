@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  width: 45rem;
+  height: 30rem;
+  padding: 1rem;
+}
+.col-1 {
+  gap: 0.5rem;
+  display: grid;
+  grid-template-rows: 9rem;
+}
+.one {
+  background: url(../images/image.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.two {
+  background: url(../images/images.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.col-2 {
+  gap: 0.5rem;
+  display: grid;
+  grid-template-rows: 18rem;
+}
+.three {
+  background: url(../images/166578_00_2x.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.four {
+  background: url(../images/heart-shaped-fruits.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 9rem;
+}
+
+.col-3 {
+  gap: 0.5rem;
+  display: grid;
+  grid-template-rows: 8rem;
+}
+.five {
+  background: url(../images/1387918756116.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.six {
+  background: url(../images/154924_00_2x.jpg);
+  background-size: cover;
+  height: 18.5rem;
+}
+.col-4 {
+  gap: 0.5rem;
+  display: grid;
+  grid-template-rows: 17rem;
+}
+.seven {
+  background: url(../images/food_photography_pouyaandish-min.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.eight {
+  background: url(../images/carrot-pilaf-6cf6eba.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 9rem;
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (max-width: 742px) {
+  body {
+    display: flex;
+    align-items: start;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: start;
+    gap: 5px;
+    width: 35rem;
+    height: 30rem;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    display: flex;
+    align-items: start;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    width: 30rem;
+    height: 30rem;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    display: flex;
+    align-items: start;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    width: 25rem;
+    height: 30rem;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    display: flex;
+    align-items: start;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    width: 20rem;
+    height: 30rem;
+    padding: 1rem;
+  }
+}
